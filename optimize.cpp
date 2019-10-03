@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <tuple>
-
+#include <string>
+#include <string_view>
 
 double func(double arg) {
   return pow(arg, 3.0) - 14.0 * arg - 15.9;
